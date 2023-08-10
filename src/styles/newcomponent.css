@@ -1,0 +1,20 @@
+.newcomponent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #ccc;
+  animation: fadein 3s ease-in-out forwards;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
